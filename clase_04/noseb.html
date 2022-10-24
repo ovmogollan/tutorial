@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Titulo del sitio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        html, body{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+        }
+        body > div {
+            display: flex;
+        }
+        body >div>div{
+            flex: 3;
+            padding-right: 20%;
+        }
+        aside {
+            flex: 1;
+        }
+
+        header{
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          align-items: center;
+          position: fixed;
+          width: 100%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 200px;
+            flex-wrap: wrap;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Odette la pro</h1>
+        <p>2006-2022</p>
+    </header>
+    <nav>
+        <button>boton1</button>
+        <button>boton2</button>
+        <button>boton3</button>
+        <button>boton4</button>
+    </nav>
+
+    <div>
+        <aside>Link</aside>
+        <div>
+            <section>Contenido</section>
+            <article>Info infoinfo infoinfoinf oin foinfoinf oinfoi nfo infoinfo</article>
+        </div>
+    </div>
+    <footer>Footer</footer>
+
+</body>
+</html>
